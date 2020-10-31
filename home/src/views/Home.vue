@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="dropdown" style='margin-left: 2vw'>
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{birthdate[0]}}</button>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{birthdate[2]}}</button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="height: 25vh; overflow-y: scroll">
                     <a v-for="n in years" class='dropdown-item' :key="n" @click="birthdate[2] = n">{{n}}</a>
                 </div>
