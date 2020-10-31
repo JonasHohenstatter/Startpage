@@ -32,6 +32,9 @@ export default {
       const date1 = Date.parse(birthday)
       const date2 = new Date()
       this.age = ((((date2 - date1)) / 1000) / 31556952).toFixed(10)
+      if(isNaN(this.age)){
+        this.$router.push('/')
+      }
     }, 111);
   },
   methods: {
