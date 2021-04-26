@@ -3,12 +3,13 @@
 This Code builds a Startpage showing your age rounded to 13 decimals,
 you can google like normal with it!.
 
-# Changes that have to be made
+# How to use it for yourself
 
-You have to just put your Birthday in GMT Date() value into the App.vue 
-where there is currently 18 May 2004
+go to https://mystartpage.vercel.app and set your date of birth. 
+There will be a URL created for you. 
+You can use that for your standart tab in chrome and other browsers
 
-# setupe
+# setup
 
 - yarn install
 - yarn serve
